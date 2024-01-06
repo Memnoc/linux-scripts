@@ -25,3 +25,33 @@ You can get an error along the line of `modprobe: FATAL: Module bdc_pci not foun
 [useful comments](https://www.reddit.com/r/Fedora/comments/tgyrxv/macbook_pro_2013_camera_drivers/)
 How to easily install kernel headers for your current kernel
 `sudo apt install linux-headers-$(uname -r)`
+
+### Nerd font installer
+
+Can install all nerd fonts via a CLI selection. Very handy!
+Credits to the [creator and maintainer](https://medium.com/thelinux/how-to-install-the-nerd-font-on-debian-ade41b331d89) and [repo](https://github.com/officialrajdeepsingh/nerd-fonts-installer)
+`bash -c  "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"`
+
+### Zap plugin manager for zsh
+
+By far my favourite plugin manager for zsh - it's so easy and handy and it doesn't really need set up at all.
+Credits to [@chrisatmachine](https://github.com/zap-zsh/zap)
+`zsh <(curl -s https://raw.githubusercontent.com/zap-zsh/zap/master/install.zsh) --branch release-v1`
+
+### Xclip - clipboard manager
+
+A good article [here](https://opensource.com/article/19/7/xclip)
+
+Not exactly a script but it is something I use in any distro
+
+Debian
+`sudo apt xclip`
+To copy the content of a file and paste it with `CTRL+v`:
+`xclip -sel clip README.md`
+To output the clipboard content
+`xclip -o`
+
+### Zoxide - terminal navigator
+
+Fantastic tool to shorten the `cd` piping. [Repo](https://github.com/ajeetdsouza/zoxide?tab=readme-ov-file#installation)
+`curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash`
