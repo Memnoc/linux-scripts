@@ -55,3 +55,15 @@ To output the clipboard content
 
 Fantastic tool to shorten the `cd` piping. [Repo](https://github.com/ajeetdsouza/zoxide?tab=readme-ov-file#installation)
 `curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | bash`
+
+### Clevo Tuxedo drivers
+
+[Source](https://novacustom.com/clevo-keyboard-backlight-control-for-linux/)
+
+The main command to run:
+
+`wget https://github.com/wessel-novacustom/clevo-keyboard/raw/master/kb.sh && chmod +x kb.sh && sudo ./kb.sh`
+
+After a reboot, we can remove the files:
+
+`sudo rm -rf ~/clevo-keyboard/ && rm ~/kb.sh`
