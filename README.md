@@ -58,6 +58,7 @@ Fantastic tool to shorten the `cd` piping. [Repo](https://github.com/ajeetdsouza
 
 ### Clevo Tuxedo drivers
 
+This fix does not seem to work anymore. Refer to the single files for Arch (vanilla or Arch-based distros) and Pop OS (Debian-based distros) for actual fixes.
 [Source](https://novacustom.com/clevo-keyboard-backlight-control-for-linux/)
 
 The main command to run:
